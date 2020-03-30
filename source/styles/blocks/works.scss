@@ -1,0 +1,28 @@
+.works {
+  padding: 100px 0;
+}
+.works__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.works__title {
+  color: #555555;
+  font-size: 20px;
+}
+.works__description-section {
+  color: #555555;
+  font-size: 14px;
+  padding-right: 20px;
+}
+.works__description {
+  margin-bottom: 70px;
+}
+.works__level {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.works__level-img {
+  margin-right: 30px;
+}

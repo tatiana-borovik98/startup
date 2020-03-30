@@ -1,29 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
 @import "blocks/header";
-
-$main-color:#f5f7;
-body{
-  color: $main-color;
-}
-div{
-  color: red;
-  h2{
-    color: green;
-  }
-}
-contacts-us{
-  color: green;
-  &__title{
-    color: aqua;
-  }
-  &__description{
-    color: beige;
-  }
-}
-.title{
-  font-size: 30px;
-  color: red;
-}
-.subtitle{
-  @extend  .title;
-  color: green;
-}
+@import "blocks/main-screen.scss";
+@import "blocks/services.scss";
+@import "blocks/about-us.scss";
+@import "blocks/works.scss";
+@import "blocks/call.scss";
+@import "blocks/blog.scss";
+@import "blocks/clients.scss";
+@import "blocks/contact.scss";
+@import "blocks/footer.scss";

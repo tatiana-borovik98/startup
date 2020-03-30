@@ -1,0 +1,46 @@
+.about-us {
+  padding: 100px 0;
+  background-color: #f8f8f8;
+}
+.about-us__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-us__title {
+  color: #555555;
+  font-size: 20px;
+}
+.about-us__description {
+  color: #555555;
+  font-size: 14px;
+  padding-bottom: 70px;
+}
+.about-us__content {
+  display: flex;
+  justify-content: space-between;
+}
+.about-us__content-left,
+.about-us__content-right {
+  color: #555555;
+  font-size: 14px;
+  padding-right: 30px;
+  padding-bottom: 70px;
+}
+.about-us__members {
+  display: flex;
+  justify-content: space-between;
+}
+.about-us__members-bloks {
+  text-align: center;
+  padding-right: 30px;
+}
+.about-us__members-bloks-title {
+  color: #555555;
+  font-size: 14px;
+  padding: 20px 0 15px 0;
+}
+.about-us__members-bloks-description {
+  color: #555555;
+  font-size: 13px;
+}

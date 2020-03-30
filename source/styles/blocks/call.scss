@@ -1,0 +1,19 @@
+.call {
+  background-image: url(../img/call.png);
+  padding: 100px 0;
+  background-repeat: no-repeat;
+}
+.call__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.call__title {
+  font-size: 30px;
+  color: #ffffff;
+}
+.call__description {
+  font-size: 30px;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
