@@ -23,7 +23,7 @@ const path = {
     html:     {
         indexSource: './source/pages/*.pug',
         dest:        './build/styles/',
-        watchSource: './source/pages/*.pug',
+        watchSource: './source/pages/*/*.pug',
     },
     scripts:  {
         source:      './source/js/**/*',

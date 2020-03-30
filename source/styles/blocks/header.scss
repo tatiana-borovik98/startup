@@ -3,24 +3,42 @@
   width: 100%;
   left: 0;
   top: 0;
+  &__logo {
+    font-size: 24px;
+    color: #ffffff;
+    padding: 40px 0;
+  }
+  &__menu-link {
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 20px;
+    padding: 40px 0;
+    cursor: pointer;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__menu {
+    display: flex;
+    justify-content: center;
+  }
 }
-.header__logo {
-  font-size: 24px;
-  color: #ffffff;
-  padding: 40px 0;
-}
-.header__menu-link {
-  font-size: 16px;
-  color: #ffffff;
-  margin-right: 20px;
-  padding: 40px 0;
-  cursor: pointer;
-}
-.header__container {
+.menu {
   display: flex;
-  justify-content: space-between;
+  opacity: 0;
+  transition: 0.3s all linear;
 }
-.header__menu {
-  display: flex;
-  justify-content: center;
+.burger-icon {
+  display: block;
+  width: 50px;
+  height: 50px;
 }
+.menu-burger {
+  display: none;
+}
+.menu-burger:checked + .menu {
+  opacity: 1;
+}
+
+
